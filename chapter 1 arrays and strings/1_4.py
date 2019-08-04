@@ -31,8 +31,8 @@ def is_a_permutation(cad):
 
 
 
-cad="tact coa"#it's a permutation of anita lava la tina wich is a palyndrome
-print(is_a_permutation(cad))
+cad="tact Coa"#it's a permutation of anita lava la tina wich is a palyndrome
+print(is_a_permutation(cad.lower()))
 
 #I would also ask what kind of inputs i should expect ?
 #what happends with upper case and stuff... like is C equal to c ?... if that's the case it would be good to convert those letters... 
